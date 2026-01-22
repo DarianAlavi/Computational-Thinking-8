@@ -26,7 +26,7 @@ t4 = create_sprite("ski1",x4,y4)
 # # TODO - set how much each variable changes by and increase the number of repeats to at least 30
 # # TODO - explain here which sprites are faster or slower
 for i in range(30):
-     x1 += random.randint(10,25)
+     x1 += random.randint(10,25) #All sprites have the same chances because they have the same range of numbers to chose from
      x2 += random.randint(10,25)
      x3 += random.randint(10,25)
      x4 += random.randint(10,25)
